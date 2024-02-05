@@ -1,0 +1,36 @@
+div {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: aqua;
+    line-height: 200px;
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+    transition-property: all;
+    transition-duration: .5s;
+}
+a{
+    color: brown;
+}
+div:hover{
+    background-image: url("images/mrjosh.jpg");
+    background-size: 350px;
+    width: 350px;
+    border-radius: 20px;
+}
+div:active{
+    background-image: url("images/joshright.jpg");
+    background-size: 350px;
+    width: 350px;
+    border-radius: 20px;
+}
+body{
+    background-image: url(images/joshleft.jpg);
+}
+pre{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
